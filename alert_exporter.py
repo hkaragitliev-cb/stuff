@@ -77,7 +77,7 @@ def user_input(action=None):
 
     print('-' * 21)
     for item in MENU:
-        if item == '9':
+        if item == '0':
             print()
         print(f'{item} {MENU[item]["name"]}')
 
